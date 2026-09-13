@@ -27,8 +27,6 @@ The goal is to predict the future positions of agents (vehicles and pedestrians)
   - [Training Objective](#training-objective)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -220,21 +218,3 @@ Results depend on:
 - Model architecture (ResNet18/34/50)
 - Training hyperparameters (learning rate, batch size, data augmentation)
 - Data preprocessing (rasterization parameters, agent filtering)
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs or suggest improvements via GitHub Issues
-- Submit pull requests with enhancements
-- Share ideas for model architecture improvements
-
-## License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-**References:**
-- [Lyft Level 5 Prediction Dataset](https://self-driving.lyft.com/level5/prediction/)
-- [l5kit: Level 5 PyTorch Kit](https://github.com/woven-planet/l5kit)
-- [Kaggle Competition](https://www.kaggle.com/competitions/lyft-motion-prediction-autonomous-vehicles)
