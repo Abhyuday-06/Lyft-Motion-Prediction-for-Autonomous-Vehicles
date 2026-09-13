@@ -2,15 +2,32 @@
 data/
 *.zarr
 *.csv
+*.zip
+aerial_map/
+semantic_map/
+scenes/
+meta.json
 
-# Cache and results
+# Generated Kaggle notebook bundles (regenerate via make_diag.py / make_diag2.py / make_nb.py)
+kaggle_diag/
+kaggle_diag2/
+kaggle_nb/
+kaggle_upload/
+kmeta/
+
+# Cache, results, and run logs
 cache/
 results/
 logs/
+*.err
+models/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Claude Code local settings
+.claude/
 
 # IDE and OS
 .vscode/
